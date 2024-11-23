@@ -3,13 +3,9 @@
     margin: 0;
 }
 
-
-
-
 body{
     font-family:'Roboto', sans-serif;
     margin: 0;
-    min-height: 100vh;
 }
 /* Header */
 .header-container{
@@ -19,7 +15,6 @@ body{
     color: white;
     flex-grow: 1;
     justify-content: center;
-
 }
 
   .header{ 
@@ -37,9 +32,7 @@ body{
     display: flex;
     flex: 1;
     padding: 0px 175px;
-    
 }
-
 
 a{
     padding-left: 11px;
@@ -78,7 +71,6 @@ a{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
-
 }
 /* button */
 .sign-up{
@@ -86,6 +78,7 @@ a{
     padding: 10px 20px;
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 20px;
 }
 
 .header-container-right{
@@ -108,10 +101,7 @@ a{
     display: flex;
     justify-content: center;
     gap: 50px;
-
-
 }
-
 
 .empty, .subtext{
     border: 5px solid white;
@@ -124,6 +114,82 @@ a{
 .empty{
     border: solid 5px #3882F6;
     border-radius: 20px;
-    
-    
 }
+/* quote */
+
+.quote-container{
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 150px 600px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.thor{
+    font-weight: bold;
+    text-align: right;
+}
+
+/* footer */
+.footer-container{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.text-container{
+    border: 1px solid black;
+    display: flex;
+    /* background-color: #3882F6; */
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-container{
+    /* border: 1px solid black; */
+    background-color: #3882F6;
+    width: 1000px;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.flex-container, .button-container{
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 100px;
+    color: #E5E7EB;
+
+}
+
+.action-text, .sign-up-text{
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+.action-text{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.sign-up-bottom{
+    background-color: #3882F6;
+    border: 4px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+
+
+
+ 
