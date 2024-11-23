@@ -141,7 +141,7 @@ a{
 }
 
 .text-container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     /* background-color: #3882F6; */
     height: 400px;
